@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.shapes;
 
 public interface IShape {
 

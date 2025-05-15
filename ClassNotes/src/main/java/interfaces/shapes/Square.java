@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.shapes;
 
 public class Square implements IShape {
 
