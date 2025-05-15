@@ -1,0 +1,17 @@
+Interface (Noun)
+- A point where two systems, subjects, or organizations meet and interact.
+
+Multiple Inheritance
+- Java does not allow multiple inheritance
+- When a child class extends two parent classes
+- This causes problems when trying to use a method that is found in both parents classes
+
+- Interfaces are used to allow for multiple inheritance
+
+Interface:
+- All methods are abstract
+- All methods must be public
+- Similar to extending an abstract class
+- A class MUST override all the methods defined in the interface
+- Interfaces are collections of abstract methods
+- Interfaces do not have data members, and can't be instantiated
