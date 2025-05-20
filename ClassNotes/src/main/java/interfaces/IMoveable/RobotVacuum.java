@@ -2,13 +2,14 @@ package interfaces.IMoveable;
 
 import java.awt.*;
 
-public class Robot implements IMoveable{
+//A class can implement two interfaces
+public class RobotVacuum implements IMoveable, ICleaner{
 
     private String name;
     private Point currentLocation;
     private int power;
 
-    public Robot (String name) {
+    public RobotVacuum(String name, Point currentLocation, int power) {
         this.name = name;
         this.currentLocation = new Point(0, 0);
         this.power = 100;
@@ -57,4 +58,16 @@ public class Robot implements IMoveable{
     public void goHome() {
         this.currentLocation = new Point(0, 0);
     }
+
+    public void clean() {
+        System.out.println("All clean!");
+    }
+
+    public void print() {
+        System.out.printf("I am %s, the robot vacuum!\n", this.name);
+        IMoveable.super.print();
+        ICleaner.super.print();
+    }
+
+
 }

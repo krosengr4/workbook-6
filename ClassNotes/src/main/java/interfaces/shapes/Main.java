@@ -5,7 +5,13 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
+       double totalArea = printTheArea();
+       System.out.printf("The total area of all shapes is: %.2f", totalArea);
 
+
+    }
+
+    public static double printTheArea() {
         ArrayList<IShape> shapes = new ArrayList<>();
 
         Circle circle = new Circle(5);
@@ -23,9 +29,6 @@ public class Main {
             totalArea += area;
             System.out.printf("The area is: %.2f\n", area);
         }
-
-        System.out.printf("The total area of all shapes is: %.2f", totalArea);
-
+        return totalArea;
     }
-
 }

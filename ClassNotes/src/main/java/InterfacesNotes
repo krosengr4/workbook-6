@@ -15,3 +15,9 @@ Interface:
 - A class MUST override all the methods defined in the interface
 - Interfaces are collections of abstract methods
 - Interfaces do not have data members, and can't be instantiated
+
+Why Use Interfaces?
+- They can enforce uniformity amongst a set of classes that don't inherit
+- They allow us to define features implemented by one or more methods, then pick and choose which features make sense for our classes
+- Java doesn't support multiple inheritance of classes, but you can implement many interfaces
+

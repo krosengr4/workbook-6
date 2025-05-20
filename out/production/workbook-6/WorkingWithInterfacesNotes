@@ -1,0 +1,2 @@
+Interfaces and Heterogeneous collections
+- When you have heterogeneous collections, you can query to see if an object implements an interface
