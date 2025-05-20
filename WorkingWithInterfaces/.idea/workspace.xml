@@ -5,33 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="124fbaf1-39bf-441d-b4bc-c36b1b74591b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AssetPortfolio/src/test/java/AssetPortfolio/PortfolioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssetPortfolio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssetPortfolio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/FinanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/FinanceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/IValuable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/IValuable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "krosengr4"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;krosengr4&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/krosengr4/workbook-6.git",
-    "accountId": "bbf4a0f2-471a-4c83-9b00-ccc670655b61"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/krosengr4/workbook-6.git&quot;,
+    &quot;accountId&quot;: &quot;bbf4a0f2-471a-4c83-9b00-ccc670655b61&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xM32Bd4qLKdkLzF864VtFvyBWP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,9 +53,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PortfolioTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/rosen/pluralsight/workbook-6/WorkingWithInterfaces/pom.xml",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="TaskManager">

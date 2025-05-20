@@ -54,9 +54,9 @@ public class Team implements Comparable<Team>{
     //Ex: myValue.compareTo(otherValue)
     // returns a 1 if mine is bigger, a -1 if other is bigger, and 0 if the values are the same
     public int compareTo(Team o) {
-        if (this.calculateWinPercent() == o.calculateWinPercent()) {
+        if (this.wins == o.wins) {
             return 0;
-        } if (this.calculateWinPercent() > o.calculateWinPercent()) {
+        } if (this.wins > o.wins) {
             return 1;
         } else {
             return -1;

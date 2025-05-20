@@ -3,6 +3,13 @@ package AssetPortfolio;
 public class FinanceApplication {
 
     public static void main(String[] args) {
+
+//        bankAccounts();
+
+
+    }
+
+    public static void bankAccounts() {
         BankAccount account1 = new BankAccount("Pam", 123, 12500);
         BankAccount account2 = new BankAccount("Gary", 456, 1500);
 
