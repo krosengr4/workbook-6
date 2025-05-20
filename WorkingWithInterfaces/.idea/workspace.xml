@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="124fbaf1-39bf-441d-b4bc-c36b1b74591b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AssetPortfolio/src/test/java/AssetPortfolio/PortfolioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetPortfolio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssetPortfolio/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/FinanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/FinanceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/IValuable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AssetPortfolio/src/main/java/AssetPortfolio/IValuable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassNotes/src/main/java/interfaces/comparator/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

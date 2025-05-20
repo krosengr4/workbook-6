@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PortfolioTest {
     Gold gold = new Gold(10, 1000);
-    House house = new House("House", 22000, 2000, 600, 4);
+    House house = new House(22000, 2000, 600, 4);
 
     @Test
     void getMostValuable() {

@@ -6,8 +6,8 @@ public class House extends FixedAsset{
     int squareFeet;
     int bedrooms;
 
-    public House(String name, double marketValue, int yearBuilt, int squareFeet, int bedrooms) {
-        super(name, marketValue);
+    public House(double marketValue, int yearBuilt, int squareFeet, int bedrooms) {
+        super("House", marketValue);
         this.yearBuilt = yearBuilt;
         this.squareFeet = squareFeet;
         this.bedrooms = bedrooms;
