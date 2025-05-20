@@ -57,4 +57,10 @@ public class Robot implements IMoveable{
     public void goHome() {
         this.currentLocation = new Point(0, 0);
     }
+
+    public void print() {
+        System.out.printf("Beep Boop! I am %s the Robot!\n", this.getName());
+        //Calling the print method that is in IMoveable interface
+        IMoveable.super.print();
+    }
 }

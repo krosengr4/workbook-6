@@ -51,4 +51,10 @@ public class Turtle implements IMoveable {
     public void goHome() {
         this.currentLocation = new Point(25, 25);
     }
+
+    public void print() {
+        System.out.printf("I am %s the turtle!\n", this.getName());
+        //Calling the print method that is in IMoveable interface
+        IMoveable.super.print();
+    }
 }

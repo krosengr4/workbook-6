@@ -65,6 +65,7 @@ public class RobotVacuum implements IMoveable, ICleaner{
 
     public void print() {
         System.out.printf("I am %s, the robot vacuum!\n", this.name);
+        //Calling the print method that is in IMoveable and ICleaner interfaces
         IMoveable.super.print();
         ICleaner.super.print();
     }
