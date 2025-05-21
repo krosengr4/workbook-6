@@ -1,0 +1,29 @@
+----------------GENERICS------------------------
+
+* - We use generics for when we need the same functionality,
+    but with different data types.
+
+- generic = a way to define reusable functionality without
+a predefined data type.
+- Since we don't know the data type, we replace it with <T>
+
+- Can be applied to classes or methods
+
+- When applied to a class, generics allow you to generalize
+  the data type of member variable(s)
+   * The type of the variable(s) are usually specified using a letter like T,
+     and then replaced with an actual data type (Integer, String, Person, etc.)
+     when the object is instantiated.
+
+- When applied to a method, generics allow you to
+  generalize the data type of parameters and return types
+
+*** Java does not support primitive types with generics***
+       this means you have to use one of Java's wrappers:
+           - Integer for int
+           - Double for double
+           - Character for char
+           - Boolean for bool
+
+
+
