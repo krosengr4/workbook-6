@@ -7,6 +7,7 @@ public class Main {
         swapIntegers();
         swapThings();
         labelThings();
+        musicalPerformance();
 
     }
 
@@ -42,5 +43,18 @@ public class Main {
         labeler.displayWithLabel("Age", 19);
     }
 
+    //Here we call .perform() method which is in Duet and Musician classes so that dataTypes that perform, can perform in a duet.
+    public static void musicalPerformance() {
+        Musician musician1 = new Musician("Jimi Hendrix", "Guitar");
+        Musician musician2 = new Musician("Phil Collins", "Drums");
+        System.out.printf("\nWelcome to the stage, %s and %s!!!\n\n", musician1.getName(), musician2.getName());
 
+        Duet<Musician> duet = new Duet<>(musician1, musician2);
+
+        //Only types that have a perform() method in their constructor class can call the perform() method in the Duet class
+        duet.perform();
+        System.out.println();
+        musician1.swapInstruments(musician2);
+        duet.perform();
+    }
 }

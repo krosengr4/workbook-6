@@ -20,6 +20,18 @@ a predefined data type.
 - You can also use generic methods in Standard Java classes
 - If you use the generic return, you must surround it with <  >.
 
+- The purpose of a generic class is to create common functionality, however,
+sometimes you want to perform specific methods for a specific variable
+(ex class: Pair<T>, type: Pair<Musician>, method: duet.perform())
+the problem with this is that if we have Pair<Integer> = new Pair(1, 2), these integers
+cannot perform and the code would throw an exception.
+
+Solution:
+- We can force Generic classes to recognize methods
+    * We can specify which classes or interfaces our Generics will allow
+    * This is done by limiting the definition of T
+    * ex: <T extends Musician> ---> now a Duet can only be created for classes which extend Musician
+
 *** Java does not support primitive types with generics***
        this means you have to use one of Java's wrappers:
            - Integer for int
