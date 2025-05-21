@@ -1,0 +1,30 @@
+------------------STREAMS---------------------
+
+- We manage data in 2 basic states:
+    1) data at rest
+        data that is currently not being used
+        data in database saved in a file, also data in memory saved in a collection
+    2) data in transit
+        data that is currently being processed
+        ex: file streams used to read a text or csv file
+
+- Data that is being processed goes through 3 stages
+    1) Data at rest -> must be funneled into a stream
+        * this is the source
+    2) Data in transit -> flows through the stream and any tasks in the stream
+        * These are the tasks the manipulate the data
+        * There can be more than one transformation task
+    3) Data in transit -> must be collected back into data at rest
+        * This is the destination
+
+- Lambda expression is a function in disguise
+    * it is passed as a parameter to another function
+    * syntax: parameter -> expression body
+    OR
+    * syntax: (parameter1, parameter2, ...) -> expression body
+
+- Rules for Lambda expression
+    1) Optional parameter type declaration
+    2) Parentheses are only needed around parameters if there is more than 1 parameter
+    3) Curly braces are only needed around the expression body if body has more than one statement
+    4) No return statement needed if the expression body is just a single method
