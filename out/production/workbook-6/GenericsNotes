@@ -17,6 +17,8 @@ a predefined data type.
 
 - When applied to a method, generics allow you to
   generalize the data type of parameters and return types
+- You can also use generic methods in Standard Java classes
+- If you use the generic return, you must surround it with <  >.
 
 *** Java does not support primitive types with generics***
        this means you have to use one of Java's wrappers:

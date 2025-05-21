@@ -6,6 +6,7 @@ public class Main {
         //calling methods
         swapIntegers();
         swapThings();
+        labelThings();
 
     }
 
@@ -32,5 +33,14 @@ public class Main {
         pair2.swap();
         System.out.println("Swapped\n" + pair2.leftThing + " or " + pair2.rightThing + "\n");
     }
+
+    //Here we call the displayWithLabel() method which is a *generic method* in Labeler class
+    public static void labelThings() {
+        Labeler labeler = new Labeler();
+        //We can use the displayWithLabel() method with both String's and int's because it is a generic method
+        labeler.displayWithLabel("Name", "Kevin");
+        labeler.displayWithLabel("Age", 19);
+    }
+
 
 }
