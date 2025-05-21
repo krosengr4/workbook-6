@@ -1,23 +1,28 @@
 Interface (Noun)
-- A point where two systems, subjects, or organizations meet and interact.
 
-Multiple Inheritance
-- Java does not allow multiple inheritance
-- When a child class extends two parent classes
-- This causes problems when trying to use a method that is found in both parents classes
+- We use interfaces to allow for multiple inheritance
 
-- Interfaces are used to allow for multiple inheritance
+- Keyword = "implements"
+(ex: public class Square implements iShape {})
+
+- You can implement many interfaces in a class
+
+- You can use a different interface within an interface class.
+        * When doing this the keyword would be "extends" instead of "implements".
+
+- Definition of Interface = "A point where two systems, subjects, or organizations meet and interact."
 
 Interface:
 - All methods are abstract
 - All methods must be public
-- Similar to extending an abstract class
+- Similar to extending an abstract class, except with the keyword "implements" instead of "extends"
 - A class MUST override all the methods defined in the interface
-- Interfaces are collections of abstract methods
 - Interfaces do not have data members, and can't be instantiated
+- Interfaces are collections of abstract methods
 
 Why Use Interfaces?
-- They can enforce uniformity amongst a set of classes that don't inherit
+- They can enforce uniformity amongst a set of classes that don't inherit from another class
 - They allow us to define features implemented by one or more methods, then pick and choose which features make sense for our classes
-- Java doesn't support multiple inheritance of classes, but you can implement many interfaces
-
+- Java does not allow multiple inheritance (however you can implement many interfaces in a class)
+- When a child class extends two parent classes
+- This causes problems when trying to use a method that is found in both parents classes
