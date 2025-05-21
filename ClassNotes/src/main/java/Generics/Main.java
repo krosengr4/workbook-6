@@ -3,7 +3,7 @@ package Generics;
 public class Main {
 
     public static void main(String[] args) {
-
+        //calling methods
         swapIntegers();
         swapThings();
 
@@ -19,18 +19,18 @@ public class Main {
 
     //Here we use the Pair class that uses generic fields, so now we can call swap() with any data type
     public static void swapThings() {
-        //Making instance of Pair object with String data type
-        Pair<String> pair1 = new Pair<>("Johnny", "June");
+
+        //Making instance of Pair object with String data type, and using swap() method
+        Pair<String> pair1 = new Pair<>("Bonnie", "Clyde");
         System.out.println(pair1.leftThing + " and " + pair1.rightThing);
         pair1.swap();
         System.out.println("Swapped\n" + pair1.leftThing + " and " + pair1.rightThing + "\n");
 
-        //Making instance of Pair object with Boolean data type
+        //Making instance of Pair object with Boolean data type, and using swap() method
         Pair<Boolean> pair2 = new Pair<>(true, false);
         System.out.println(pair2.leftThing + " or " + pair2.rightThing);
         pair2.swap();
         System.out.println("Swapped\n" + pair2.leftThing + " or " + pair2.rightThing + "\n");
-
     }
 
 }
