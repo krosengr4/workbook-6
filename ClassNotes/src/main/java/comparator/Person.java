@@ -1,6 +1,4 @@
-package interfaces.comparator;
-
-import java.util.Objects;
+package comparator;
 
 //!In this class, we implement the Comparable interface but with Person object
 public class Person implements Comparable<Person>{

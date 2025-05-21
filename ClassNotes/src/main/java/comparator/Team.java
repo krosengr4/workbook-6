@@ -1,4 +1,4 @@
-package interfaces.comparator;
+package comparator;
 
 //!We implement the Comparable interface
 //The Comparable interface uses <T> as a placeholder object so we can place in whatever object we want to compare

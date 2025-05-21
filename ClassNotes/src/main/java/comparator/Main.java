@@ -1,4 +1,4 @@
-package interfaces.comparator;
+package comparator;
 
 public class Main {
 
