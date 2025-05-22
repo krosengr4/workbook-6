@@ -1,5 +1,7 @@
 package Generics;
 
+//!Generic Class
+//Similar to IntegerPair class, but now we can create pairs of any type of data using one class
 public class Pair<T> {
 
     T leftThing;
