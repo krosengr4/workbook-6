@@ -80,7 +80,6 @@ public class Main {
 
         //!The sorted() method will sort the stream
         ArrayList<BaseballPlayer> playersByHomeruns = baseballPlayers.stream()
-                .filter(player -> player.getJerseyNumber() == player.getJerseyNumber())
                 //! sorted() method only works with Types that implement Comparable interface
                 .sorted()
                 .collect(Collectors.toCollection(ArrayList::new));

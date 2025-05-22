@@ -47,7 +47,7 @@ public class Program {
         double averageAge = sumOfAges / people.size();
         people.sort(Person::compareTo);
 
-        System.out.printf("Average age of all people: %.2f\nYoungest com.pluralsight.streams.Person: %s %s at %d\nOldest com.pluralsight.streams.Person: %s %s at %d",
+        System.out.printf("Average Age: %.2f\nYoungest: %s %s at %d\nOldest: %s %s at %d",
                 averageAge, people.getFirst().firstName, people.getFirst().getLastName(), people.getFirst().age, people.getLast().firstName,
                 people.getLast().lastName, people.getLast().age);
     }
