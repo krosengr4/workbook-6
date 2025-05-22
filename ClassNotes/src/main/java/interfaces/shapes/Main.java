@@ -1,6 +1,8 @@
 package interfaces.shapes;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class Main {
 
@@ -17,10 +19,12 @@ public class Main {
         Circle circle = new Circle(5);
         Square square = new Square(3.78);
         Rectangle rectangle = new Rectangle(12, 3);
+        Rectangle rectangle1 = new Rectangle(3.78, 3.78);
 
         shapes.add(circle);
         shapes.add(square);
         shapes.add(rectangle);
+        shapes.add(rectangle1);
 
         double totalArea = 0;
 

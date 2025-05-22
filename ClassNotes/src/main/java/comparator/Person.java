@@ -1,6 +1,6 @@
 package comparator;
 
-//!In this class, we implement the Comparable interface but with Person object
+//!In this class, we implement the Comparable interface but with com.pluralsight.streams.Person object
 public class Person implements Comparable<Person>{
 
     String name;

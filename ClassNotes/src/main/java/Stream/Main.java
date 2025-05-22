@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        employeeList();
+        employeeList();
         nameList();
     }
 
@@ -26,10 +26,11 @@ public class Main {
 
         //Using stream, filter, and collect methods
         List<Employee> matchingEmps = employeeList.stream()
-                .filter(p -> p .getName().equals(p.getName()))
+                .filter(t -> t.getName().equals(t.getName()))
                 .collect(Collectors.toList());
 
         System.out.println("Matching: " + matchingEmps.size());
+        System.out.println(matchingEmps.get(1).getName());
     }
 
     public static void nameList() {

@@ -10,10 +10,11 @@ public class Pair<T> {
         this.rightThing = rightThing;
     }
 
-    //getters
+    //region getters
     public T getLeftThing() {
         return leftThing;
     }
+    //endregion
 
     public T getRightThing() {
         return rightThing;

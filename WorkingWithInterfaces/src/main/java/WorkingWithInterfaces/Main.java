@@ -15,7 +15,8 @@ public class Main {
         myFamily.add( new Person("Zephaniah", "Hughes", 9) );
         myFamily.add( new Person("Ezra", "Aiden", 17) );
         myFamily.add( new Person("First", "Zzzzz", 17) );
-        myFamily.add( new Person("Last", "Aaaaaa", 65) );
+        myFamily.add( new Person("Last", "Aaaaaa", 67) );
+        myFamily.add( new Person("Last", "Aaaaaa", 67) );
 
         myFamily.sort(Person::compareTo);
 

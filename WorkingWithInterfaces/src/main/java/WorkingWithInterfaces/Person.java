@@ -43,8 +43,10 @@ public class Person implements Comparable<Person>{
 
         if (this.lastName.compareTo(o.lastName) != 0) {
             return this.lastName.compareTo(o.lastName);
+
         } else if (this.firstName.compareTo(o.firstName) != 0) {
             return this.firstName.compareTo(o.firstName);
+
         } else if (this.age == o.age){
             return 0;
         } else if (this.age > o.age) {

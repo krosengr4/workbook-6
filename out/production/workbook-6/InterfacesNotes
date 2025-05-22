@@ -12,7 +12,7 @@ Interface (Noun)
 
 - Definition of Interface = "A point where two systems, subjects, or organizations meet and interact."
 
-Interface:
+Interface Rules:
 - All methods are abstract
 - All methods must be public
 - Similar to extending an abstract class, except with the keyword "implements" instead of "extends"

@@ -4,11 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         //calling methods
-        swapIntegers();
-        swapThings();
+//        swapIntegers();
+//        swapThings();
         labelThings();
         musicalPerformance();
-
     }
 
     //We use the IntegerPair class here. This class's swap() method only works with int data types

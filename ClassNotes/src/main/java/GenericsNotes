@@ -12,7 +12,7 @@ a predefined data type.
 - When applied to a class, generics allow you to generalize
   the data type of member variable(s)
    * The type of the variable(s) are usually specified using a letter like T,
-     and then replaced with an actual data type (Integer, String, Person, etc.)
+     and then replaced with an actual data type (Integer, String, com.pluralsight.streams.Person, etc.)
      when the object is instantiated.
 
 - When applied to a method, generics allow you to
